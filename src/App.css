@@ -1,13 +1,32 @@
 body {
   background-color: black;
-  color: white;
 }
 .App {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   font-family: "Raleway", sans-serif;
+  background-color: white;
+  width: 600px;
+  height: 250px;
+}
+
+.half {
+  width: 300px;
+  height: 250px;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .App-logo {
@@ -16,6 +35,8 @@ body {
 }
 
 .App-header {
+  color: white;
+
   display: flex;
   justify-content: center;
   align-items: center;
